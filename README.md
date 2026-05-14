@@ -2,48 +2,57 @@ Driver's Exam Project
 
 Overview
 
-This project is a Java-based driver's exam simulation system designed to demonstrate structured program flow, scoring logic, input validation, and user interaction handling.
+This project is a Python-based driver's exam simulation system designed to demonstrate workflow logic, scoring systems, input validation, file handling, and structured program flow.
 
-The system simulates a driver's exam process by comparing user answers against an answer key and calculating pass/fail results.
+The application simulates a real-world written driver's exam by presenting multiple-choice questions, validating user input, comparing answers against an external answer key, and generating pass/fail results.
+
+---
 
 Features
 
-- Driver exam answer processing
-- Automated scoring system
-- Pass/fail determination
-- User input validation
-- Structured program logic
-- Array and loop handling
+- Multiple-choice driver exam simulation
+- Answer validation and scoring logic
+- External answer key integration using JSON
+- File handling with text and answer key files
+- Pass/fail evaluation system
+- Structured modular function design
+- Console-based user interaction workflow
 
-Skills Demonstrated
+---
 
-- Java
-- Program structure
-- Input validation
-- Arrays
-- Conditional logic
-- Looping structures
-- Workflow-based logic
-- User interaction handling
+Technologies Used
+
+- Python
+- JSON
+- File Handling
+- Conditional Logic
+- Functions & Modular Programming
+
+---
 
 Project Structure
 
-This repository contains:
+- "Driver Exam.py" → Main exam application
+- "answerkey.txt" → Stores correct exam answers
+- "driver anskey.py" → Supporting answer key logic
+- "drvr_pick.txt" → Driver answer selections/output
 
-- Java source files
-- Exam scoring logic
-- Answer comparison systems
-- Program workflow handling
+---
 
-Future Improvements
+Concepts Demonstrated
 
-- GUI interface
-- Database integration
-- User authentication
-- Expanded reporting
-- Modular refactoring
-- Randomized test generation
+This project demonstrates several foundational software engineering concepts:
 
-Engineering Focus
+- Input validation
+- Workflow automation logic
+- Data separation
+- Scoring systems
+- Operational flow control
+- Modular programming
+- Backend processing logic
 
-This project reflects structured backend logic and operational workflow thinking using Java-based system design principles.
+---
+
+Purpose
+
+This project was created as part of a programming and systems design learning journey focused on building practical workflow-based applications and operational logic systems.
